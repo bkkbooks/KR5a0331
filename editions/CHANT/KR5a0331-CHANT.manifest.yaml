@@ -1,0 +1,35 @@
+canonical_identifier: bkk:krp/KR5a0331/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR5a0331/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 夷夏論一卷
+  identifiers:
+    krp: KR5a0331
+  tags:
+    tls-dates: dat04500
+    tls-internal: swl
+    kr-categories: KR5a
+  source:
+    repository: tls-texts
+    path: data/tls/KR5a0331.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR5a0331_001-CHANT.yaml, hash: 'sha256:9c4e5ab0533f87bf263dc593a08e494cf4b9b91ef7a44f5db86fdb3b1509d94b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0331_001-CHANT.markers.yaml, hash: 'sha256:0586624f59fb8306d01a77336652b35dd1d6064a6d45f2dfd55338be753f6160'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0331_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1534
+  label: 夷夏論
+  type: section
+  level: 1
+hash: sha256:a55426c9d3c56b0fc38de1fccc592fec491ddfe39d8f30c11dcb769b53d4f081

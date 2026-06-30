@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0331/v1
+canonical_location: https://kanripo.org/bkk/KR5a0331/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 夷夏論一卷
+  identifiers:
+    alt_id:
+    - CH2a1449
+  tags:
+    tls-dates: dat04500
+    tls-internal: swl
+    kr-categories: KR5a
+  source:
+    repository: tls-texts
+    path: data/tls/KR5a0331.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR5a0331_001.yaml, hash: 'sha256:fdd48be4234f840b0ba988deb7b08dcba5409e765fca5715e3794ef6cb6bd093'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0331_001.markers.yaml, hash: 'sha256:60e8766f4977f00b4942052ba61bf69b21c4192967052690817aa257ce256b0e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0331_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1534
+  label: 夷夏論
+  type: section
+  level: 1
+hash: sha256:bcff7839bf8f30cd38bce3d6f7d3c0f7ee402643b68a2dd09d33442a3b22f48d
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
